@@ -1,0 +1,35 @@
+{
+    "dataset-02": {
+        "KMeans": {
+            "n_clusters": 5,
+            "criterion": "silhouette_score"
+        },
+        "DBSCAN": {
+            "eps": 0.3,
+            "min_samples": 50,
+            "criterion": "silhouette_score"
+        }
+    },
+    "dataset-03": {
+        "KMeans": {
+            "n_clusters": 5,
+            "criterion": "silhouette_score"
+        },
+        "DBSCAN": {
+            "eps": 0.5,
+            "min_samples": 8,
+            "criterion": "silhouette_score"
+        }
+    },
+    "dataset-04": {
+        "KMeans": {
+            "n_clusters": 5,
+            "criterion": "silhouette_score"
+        },
+        "DBSCAN": {
+            "eps": 3.5,
+            "min_samples": 60,
+            "criterion": "silhouette_score"
+        }
+    }
+}
